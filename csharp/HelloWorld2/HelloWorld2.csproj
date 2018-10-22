@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Content Include="Program.cs" />
+    <Content Include="Foo/OtherFile.cs" />
+    <Content Include="Foo/Car.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Foo/OtherFile.cs" />
+    <Compile Include="Foo/Car.cs" />
+  </ItemGroup>
+
+</Project>

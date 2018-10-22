@@ -1,0 +1,85 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build_dotnet1",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/csharp/csharp.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build_dotnet2",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/csharp/csharp2.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build_java1",
+            "command": "javac",
+            "type": "shell",
+            "args": [
+                "HelloWorld.java"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/java"
+            }
+        },
+        {
+            "label": "build_java2",
+            "command": "javac",
+            "type": "process",
+            "args": [
+                "-verbose",
+                "-cp",
+                "\"${workspaceFolder}/java/;${worspaceFolder}/java/\\*\"",
+                "HelloWorld2.java"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder/java"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "1 - build C++",
+            "type": "shell",
+            "command": "g++",
+            "problemMatcher": "$gcc",
+            "options": {
+                "cwd": "${workspaceFolder}/c++"
+            },
+            "args": [
+                "-g",
+                "hello_world.cpp",
+                "-o",
+                "hello_world"
+            ]
+        },
+        {
+            "label": "2 - build C++",
+            "type": "shell",
+            "command": "g++",
+            "problemMatcher": "$gcc",
+            "options": {
+                "cwd": "${workspaceFolder}/c++"
+            },
+            "args": [
+                "-g",
+                "other_file.cpp",
+                "-g",
+                "car.cpp",
+                "-g",
+                "hello_world2.cpp",
+                "-o",
+                "hello_world2"
+            ]
+        }
+    ]
+}

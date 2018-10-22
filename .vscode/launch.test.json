@@ -1,0 +1,66 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "example1",
+                "projectName": "example1",
+                "workingDirectory": "d:\\Documents\\work\\DevMountain\\cohorts\\provo-web-ah-16\\language-overviews\\java\\example1",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "example2",
+                "projectName": "example2",
+                "workingDirectory": "d:\\Documents\\work\\DevMountain\\cohorts\\provo-web-ah-16\\language-overviews\\java\\example2",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "foo",
+                "projectName": "foo",
+                "workingDirectory": "d:\\Documents\\work\\DevMountain\\cohorts\\provo-web-ah-16\\language-overviews\\java\\foo",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "example1",
+                "projectName": "example1",
+                "workingDirectory": "d:\\Documents\\work\\DevMountain\\cohorts\\provo-web-ah-16\\language-overviews\\java\\example1",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "example2",
+                "projectName": "example2",
+                "workingDirectory": "d:\\Documents\\work\\DevMountain\\cohorts\\provo-web-ah-16\\language-overviews\\java\\example2",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "foo",
+                "projectName": "foo",
+                "workingDirectory": "d:\\Documents\\work\\DevMountain\\cohorts\\provo-web-ah-16\\language-overviews\\java\\foo",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

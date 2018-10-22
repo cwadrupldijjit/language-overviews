@@ -1,0 +1,17 @@
+*.class
+bin/
+obj/
+build/
+
+.vscode/settings.json
+
+*.pyc
+
+java/**/target
+
+go/**/debug
+
+c++/hello_world
+c++/hello_world.exe
+c++/hello_world2
+c++/hello_world2.exe
