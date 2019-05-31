@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/csharp/csharp.csproj"
+                "${workspaceFolder}/csharp/HelloWorld/HelloWorld.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/csharp/csharp2.csproj"
+                "${workspaceFolder}/csharp/HelloWorld2/HelloWorld2.csproj"
             ],
             "problemMatcher": "$msCompile"
         },

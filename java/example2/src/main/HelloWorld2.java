@@ -1,9 +1,19 @@
+// Grabbing things from other files that aren't in the
+// current package (the current package is annonymous
+// since we haven't defined it) requires you to
+// "import" it.
+// In this case, we're bringing in the following four
+// classes found in the "java.util" package and no
+// more:
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// define a class
+// The following import is bringing in everything from
+// a package declared in this project.  
+import subpackage.*;
+
 public class HelloWorld2 {
     public static void main(String args[]) {
         String message = OtherFile.getMessage();

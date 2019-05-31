@@ -9,7 +9,7 @@ class Car:
 
         return "You honked " + str(self.__honkCount) + " times"
 
-    def honkMultipleTimes(self, num):
+    def honk_multiple_times(self, num):
         self.__honkCount += num
 
         return "You honked up to " + str(num) + " more times bringing your total to " + str(self.__honkCount)

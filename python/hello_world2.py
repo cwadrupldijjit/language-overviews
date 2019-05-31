@@ -1,35 +1,37 @@
-from other_file import getMessage
+from other_file import get_message
 from car import Car
 
-print getMessage()
+print(get_message())
 
 car = Car()
 
-print car.honk()
-print car.honk()
-print car.honk()
+print(car.honk())
+print(car.honk())
+print(car.honk())
 
-print car.honkMultipleTimes(8)
+print(car.honk_multiple_times(8))
 
-def workingWithLists():
+def working_with_lists():
     arr = [
         "foo",
         "bar"
     ]
 
     for item in arr:
-        print item
+        print(item)
 
     for i in range(len(arr)):
-        print str(i) + ": " + arr[i]
+        print(str(i) + ": " + arr[i])
+
+    foo = 'foo'
 
     dictionary = {
-        "foo": "bar",
+        foo: "bar",
         "key": "value"
     }
 
-    print dictionary['foo']
-    print dictionary['key']
+    print(dictionary['foo'])
+    print(dictionary['key'])
 
-workingWithLists()
+working_with_lists()
 
